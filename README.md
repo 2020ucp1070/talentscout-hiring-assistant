@@ -16,3 +16,37 @@ A Streamlit-based chatbot that collects candidate information and asks technical
 git clone https://github.com/YOUR-USERNAME/talentscout-hiring-assistant.git
 cd talentscout-hiring-assistant
 pip install -r requirements.txt
+
+```
+## Usage
+
+-Once the environment is set up, you can run the application using Streamlit
+Run the Application
+Start the web app by running the following command:
+
+```bash
+streamlit run app.py
+
+```
+## Directory Structure
+
+ - app.py: The main Python script to run the app.
+
+ - prompts.py: Contains predefined prompts for the hiring assistant.
+
+ - utils.py: Utility functions for various operations in the app.
+
+ - requirements.txt: Lists all the necessary Python packages for the project.
+
+ -.streamlit/: Contains configuration files for Streamlit app settings.
+
+ - venv/: Virtual environment for project dependencies.
+
+
+
+Push to your branch: git push origin feature-name.
+
+Open a pull request.
+
+
+
